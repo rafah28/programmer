@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background: #B1ABB2;
+}
+#nav1{
+    width: 100%;
+    height: 90px;
+    line-height: 70px;
+    background: #FAF4EE;
+    box-shadow: 0 0 4px 0 #033;
+    position: fixed;
+    z-index: 3;
+}
+#nav1 h1{
+ float: left;
+ font-size: 2em;
+ color: #E8C3C7;
+ margin-left: 20px;
+ margin-top: 10px;
+}
+#nav1 h1:hover{
+ color:#7588a9;
+ transition: all ease-in-out 0.5s;
+}
+#nav1 h1 a{
+ text-decoration: none;
+}
+#nav1 ul{
+   float: right;
+   list-style-type: none;
+    width: 920px;
+   
+}
+#nav1 ul li {
+  display: inline-block;
+   width: 120px;
+   height: 80px;
+   margin-right: 10px;
+    text-align: center;
+    font-size: 12pt;
+    padding-top: 10px;
+    
+}
+#nav1 ul li:hover {
+  background-color: bisque;
+   transition: all ease-in-out 0.45s;
+    
+}
+#nav1 ul li a:hover {
+    color: #7588a9;
+    transition: all ease-in-out 0.45s;
+}
+#nav1 ul li a{
+   color: burlywood; 
+   text-decoration: none;
+}
+#nav1 input{
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+   
+}
+.txt{
+    background-color:rgba(106,134,171,0.4);
+    padding: 5px;
+     width: 200px;
+    height: 28px;
+    font-size: 20px;
+    border-radius: 0 20px 20px 0;
+}
+.btn{
+    margin-right: 215px;
+    height: 40px;
+    width: 120px;
+    background-color: #999aaf;
+    border-radius:  20px 0 0 20px;
+}
+.btn:hover{
+    background-color:rgba(106,134,171,0.4); 
+}
+#main-content{
+    width: 100%;
+    height: 660px;
+    background: url(img/slid9.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 30px;
+}
+#main-content h1{
+    padding-top: 50px;
+    font-size: 40px;
+    color: bisque;
+    text-shadow: 6px 6px #7588a9;
+    color: #E8C3C7;
+    padding-top: 150px;
+}
+#main-content h1 span:hover{
+   color:cornsilk;
+     transition: all ease-in-out 0.45s;
+    cursor: pointer;
+}
+#main-content p{
+    width: 700px;
+    font-size: 25px;
+    text-align: center;
+    margin: 70px auto;
+    color:azure;
+}
+#service{
+   width: 170px;
+    height: 60px;
+    line-height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid azure;
+    color: azure;
+    padding: 5px;
+}
+#service:hover{
+     background-color: rgba(106,134,171,0.4);
+}
+#third{
+    width: 100%;
+    height: 400px;
+    background-color:;   
+}
+#third1:hover{
+    color: azure;
+    transition: all ease-in-out 0.45s;
+}
+#third2:hover{
+    color: azure;
+    transition: all ease-in-out 0.45s;
+}
+#third3:hover{
+    color: azure;
+    transition: all ease-in-out 0.45s;
+}
+#third1{
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    text-align: justify;
+    display: inline;
+    float: left;
+    margin: 15px;
+    border: 0px solid #000;
+    border-radius: 30px;
+    position: absolute;
+    top: 720px;
+    left: 100px
+    
+}
+#third1 img{
+     width: 300px;
+    height: 200px;
+    border-radius: 30px;
+}
+#third2{
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    text-align: justify;
+    display: inline;
+    float: left;
+    margin: 15px;
+    border: 0px solid #000;
+    border-radius: 30px;
+    position: absolute;
+    top: 720px;
+    left: 480px;
+    
+}
+#third2 img{
+     width: 300px;
+    height: 200px;
+    border-radius: 30px;
+}
+#third3{
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    text-align: justify;
+    display: inline;
+    float: left;
+    margin: 15px;
+    border: 0px solid #000;
+    border-radius: 30px;
+    position: absolute;
+    top: 720px;
+    left: 860px
+    
+}
+#third3 img{
+     width: 300px;
+    height: 200px;
+    border-radius: 30px;
+}
+#footer{
+    width: 100%;
+    height: 100px;
+    background:#2b3141 ;
+}
+#footer h2{
+    color:#E8C3C7;
+    float: right;
+    margin-right: 480px;
+    font-weight: 200;
+    margin-top: 35px;
+}
+#nav2 ul{
+    float: left;
+    margin-left:450px;
+}
+#nav2 ul li{
+    display: inline-block;
+    list-style-type: none;
+   font-size: 30px;
+    margin-top: 30px;
+    
+}
+#nav2 ul li a{
+    text-decoration: none;
+    color: #E8C3C7;
+    padding: 10px;
+}
+#nav2 ul li a:hover{
+    color: rgba(232, 195, 199,0.6);
+    transition: all ease-in-out 0.45s;
+}
